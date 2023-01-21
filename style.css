@@ -1,0 +1,150 @@
+
+body {
+  background: linear-gradient(to bottom right,#7A9CC6,#B0C4DE);
+}
+
+.menu {
+  background-color: #276C9A;
+  overflow: hidden;
+  margin-top: 0.5em;
+  width: 100%;
+  height : 100%;
+}
+
+
+li:first-of-type {
+  display: inline-block;
+}
+
+.menu a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding: 4px 6px;
+  text-decoration: none;
+  font-size: 17px;
+  text-transform: uppercase;
+}
+
+.menu a:hover {
+  color: whitesmoke;
+}
+
+h1 {
+  text-align: center;
+  font-family: fantasy;
+  font-size: 9vw;
+  text-decoration: underline;
+}
+
+#principal {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 500px) {
+  
+.container {
+  width: 100%;
+  height : 100%;
+  flex-direction: row;
+  display: flex;
+  } 
+
+.left {
+  flex-basis: 67%;
+}
+
+.right {
+  flex-basis: 33%;
+}
+  
+}  
+
+
+article {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.introduction {
+  font-size : 1.2em;
+  padding-bottom: 2em;
+}
+
+.news {
+  border: solid;
+  border-color: #276C9A	;
+  background-color: #B7DBEF;
+  padding: 3em 0.64em 2em 0.64em;
+  border-style: dotted;
+}
+
+.alignedright {
+  text-align: end;
+} 
+
+form {
+  color: white;
+  background-color: #0C2D48;
+  border: solid;
+  border-color:white;
+  width: 43%;
+  display: table;
+  margin:auto;
+}  
+
+aside {
+  padding-left: 2.5em;
+  margin-left: auto;
+  box-shadow: inset 0.2em 0 0.2em -0.2em #29627e;
+  font-size: 1.2em;
+  font-style: italic;
+  color: #29627e; 
+  text-align: justify;
+}
+
+h4 {
+  text-align: center;
+}  
+
+aside > p {
+    margin: 0.8em;
+}
+
+form {
+  text-align: center;
+  padding: 2.55em;
+} 
+
+@media (max-width: 800px) {
+  video {
+   display: none; 
+  }
+  }
+  
+.video {
+  margin-left: 2em;
+  position: absolute;
+  size: auto;
+}  
+
+footer {
+  background-color:#276C9A;
+  padding : 0.2em;
+  margin-top: 0.8em;
+  display: flex;
+  color : whitesmoke;
+  justify-content: space-evenly;
+} 
+
+ul:last-of-type {
+    padding: 0;
+}
+
+.event {
+  border-top: thick double #276C9A;
+}  
+  
+
+
