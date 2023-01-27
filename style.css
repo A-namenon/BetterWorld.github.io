@@ -121,6 +121,10 @@ form {
   video {
    display: none; 
   }
+
+  img {
+   size: auto; 
+  }
   }
   
 .video {
