@@ -3,22 +3,28 @@ body {
   background: linear-gradient(to bottom right,#7A9CC6,#B0C4DE);
 }
 
+.form-input {
+  display: flex;
+}
+
+.form-space-small {
+  column-gap: 7.6%;
+}
+
+.form-space-medium {
+  column-gap: 8%;
+}
+
+.form-space-large {
+  column-gap: 3%;
+}
+
 .menu {
   background-color: #276C9A;
-  overflow: hidden;
-  margin-top: 0.5em;
   width: 100%;
   height : 100%;
-}
-
-
-li:first-of-type {
-  display: inline-block;
-}
-
-.menu a {
-  float: left;
-  color: black;
+  display: flex;
+  column-gap: 1%;
   text-align: center;
   padding: 4px 6px;
   text-decoration: none;

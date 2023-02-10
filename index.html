@@ -12,10 +12,12 @@
 
 <body id="body">
   <nav class="menu">
-    <ul>
-      <li class="menu"><a href="index.html">Our Charity</a></li>
-      <li class="menu"><a href="page2.html">Our Events</a></li>
-    </ul>
+    <div>
+      <a href="index.html">Our Charity</a>
+    </div>  
+    <div>
+      <a href="page2.html">Our Events</a>
+    </div>  
   </nav>
   <header class="title">
     <h1>BetterWorld</h1>
@@ -56,22 +58,38 @@
           <form method="POST" action="action.php">
 
             <h3>Subscribe !</h3>
-
-            <label for="firstname">Your first name<span aria-label="required">*</span></label>
-            <input type="text" name="firstname" id="firstname" placeholder="Type your first name"><br /><br />
-
-            <label for="lastname">Your last name<span aria-label="required">*</span></label>
-            <input type="text" name="lastname" id="lastname" placeholder="Type your last name"><br /><br />
-
-            <label for="email">Your e-mail address<span aria-label="required">*</span></label>
-            <input type="email" name="email" id="email" placeholder="Type your e-mail address">
-
+            <div class="form-input form-space-small">
             <div>
-              <p>What would you like to subscribe to ?</p>
+            <label for="firstname">Your first name<span aria-label="required">*</span></label>
+            </div>
+            <div>
+            <input type="text" name="firstname" id="firstname" placeholder="Type your first name">
+            </div>
+            </div>
+            <div class="form-input form-space-medium">
+            <div>
+            <label for="lastname">Your last name<span aria-label="required">*</span></label>
+            </div>
+            <div>
+            <input type="text" name="lastname" id="lastname" placeholder="Type your last name">
+            </div>
+            </div>
+            <div class="form-input form-space-large">
+            <div>
+            <label for="email">Your e-mail address<span aria-label="required">*</span></label>
+            </div>  
+            <div>  
+            <input type="email" name="email" id="email" placeholder="Type your e-mail address">
+            </div> 
+            </div>
+            <div class="form-input">
+            What would you like to subscribe to ?
+            </div>
+            <div class="form-input">
               <input type="checkbox" id="Newsletter" name="Subscription" value="Newsletter">
               <label for="Newsletter" class="label">The monthly newsletter</label>
             </div>
-            <div>
+            <div class="form-input">
               <input type="checkbox" id="Subscription" name="civilite" value="Notifications">
               <label for="Notifications" class="label">Notifications about upcoming events</label>
             </div>
