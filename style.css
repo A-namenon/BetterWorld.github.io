@@ -1,4 +1,3 @@
-
 body {
   background: linear-gradient(to bottom right,#7A9CC6,#B0C4DE);
 }
@@ -30,6 +29,8 @@ body {
   text-decoration: none;
   font-size: 17px;
   text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
 }
 
 .menu a:hover {
@@ -80,7 +81,7 @@ article {
 
 .news {
   border: solid;
-  border-color: #276C9A	;
+  border-color: #276C9A ;
   background-color: #B7DBEF;
   padding: 3em 0.64em 2em 0.64em;
   border-style: dotted;
@@ -128,9 +129,6 @@ form {
    display: none; 
   }
 
-  img {
-   size: auto; 
-  }
   }
   
 .video {
@@ -155,6 +153,9 @@ ul:last-of-type {
 .event {
   border-top: thick double #276C9A;
 }  
-  
 
-
+@media only screen and (max-width: 450px) {
+  img {
+    width: 100%;
+  }
+}
